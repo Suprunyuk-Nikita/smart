@@ -1,0 +1,5 @@
+.side-panel {
+    width: clamp(68.8px, 8.96vw, 172px);
+    box-shadow: inset 0 5px 5px -5px black;
+    background-image: url("../resources/images/side-panel.png");
+}

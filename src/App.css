@@ -1,0 +1,11 @@
+.App-main {
+    display: flex;
+    flex-direction: row;
+}
+
+.App-middle{
+    --sidePanelWidth: clamp(68.8px, 8.96vw, 172px);
+    width: calc(100vw - (var(--sidePanelWidth) * 2));
+    --headerHeight: clamp(51.73px, 6.74vw, 129.33px) - 20px;
+    height: calc(100vh - var(--headerHeight));
+}
