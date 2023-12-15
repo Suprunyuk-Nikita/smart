@@ -1,0 +1,8 @@
+.footer {
+    width: calc(100% - clamp(68.8px, 8.96vw, 172px) * 2 - 4px);
+    height: clamp(106.13px, 13.82vw, 265.33px);
+    padding: 10px clamp(68.8px, 8.96vw, 172px);
+    background-image: url("../resources/images/footer-background.png");
+    margin-top: auto;
+    align-self: center;
+}
