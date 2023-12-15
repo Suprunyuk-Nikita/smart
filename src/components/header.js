@@ -8,7 +8,7 @@ const Header = () => {
         <div className="header">
             <img className="header-logo" src={logo} alt="#" />
             <div className="header-btns-panel">
-                <div className="styles-btn" style={{ justifyItems: "self-end" }}>Регистрация</div>
+                <div className="styles-btn">Регистрация</div>
                 <div className="header-btn">Вход</div>
             </div>
         </div>

@@ -4,8 +4,12 @@
 }
 
 .App-middle{
+    --appMiddleSidePading: clamp(48.53px, 6.23vw, 121.33px);
+    padding: 20px var(--appMiddleSidePading);
+
     --sidePanelWidth: clamp(68.8px, 8.96vw, 172px);
-    width: calc(100vw - (var(--sidePanelWidth) * 2));
-    --headerHeight: clamp(51.73px, 6.74vw, 129.33px) - 20px;
+    width: calc(100vw - var(--sidePanelWidth) * 2 - var(--appMiddleSidePading) * 2);
+
+    --headerHeight: clamp(51.73px, 6.74vw, 129.33px) - 60px;
     height: calc(100vh - var(--headerHeight));
 }
