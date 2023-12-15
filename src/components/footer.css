@@ -1,8 +1,31 @@
 .footer {
     width: calc(100% - clamp(68.8px, 8.96vw, 172px) * 2 - 4px);
     height: clamp(106.13px, 13.82vw, 265.33px);
-    padding: 10px clamp(68.8px, 8.96vw, 172px);
+    padding: 25px clamp(68.8px, 8.96vw, 172px);
     background-image: url("../resources/images/footer-background.png");
     margin-top: auto;
     align-self: center;
+}
+
+.footer-heading {
+    margin-bottom: 5px;
+    font-size: clamp(10.13px, 1.32vw, 25.33px);
+    font-weight: bold;
+    color: white;
+}
+
+.footer-text {
+    font-size: clamp(8.53px, 1.11vw, 21.33px);
+    margin-bottom: 2px;
+    font-weight: 400;
+    color: white;
+}
+
+.footer-icon {
+    display: inline;
+    --iconSize: clamp(18.67px, 2.43vw, 46.67px);
+    width: var(--iconSize);
+    height: var(--iconSize);
+    margin-right: clamp(10.13px, 1.31vw, 25.33px);
+    cursor: pointer;
 }

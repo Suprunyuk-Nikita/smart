@@ -1,7 +1,7 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    padding: 20px clamp(48.53px, 6.23vw, 121.33px);
+    padding: 25px clamp(48.53px, 6.23vw, 121.33px);
 }
 
 .navbar-btn {
