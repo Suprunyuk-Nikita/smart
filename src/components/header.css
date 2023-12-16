@@ -29,6 +29,7 @@
     font-size: clamp(8.53px, 1.11vw, 21.33px);
     font-weight: 500;
     cursor: pointer;
+    user-select: none;
     color: white;
     background-color: #EC671E;
 }

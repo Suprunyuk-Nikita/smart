@@ -8,8 +8,6 @@
     display: flex;
     width: clamp(68.8px, 8.96vw, 172px);
     height: clamp(22.4px, 2.92vw, 56px);
-    padding: 0px clamp(5.87px, 0.76vw, 14.67px);
-    margin-left: clamp(6.4px, 0.83vw, 16px);
     border: 3px solid #EC671E;
     border-radius: clamp(8px, 1.04vw, 20px);
     align-items: center;
@@ -17,6 +15,7 @@
     font-size: clamp(8.53px, 1.11vw, 21.33px);
     font-weight: 500;
     cursor: pointer;
+    user-select: none;
     color: white;
     background-color: #EC671E;
 }
