@@ -18,15 +18,17 @@ function App() {
       <div className='App-main'>
         <Panel />
         <div className='App-middle'>
-        <Router>
-          <Navbar />
-            <Routes>
-              <Route path="*" element={<Main />} />
-              <Route path="/courses" element={<Courses />} />
-              <Route path="/gallery" element={<Gallery />} />
-              <Route path="/enroll" element={<Enroll />} />
-              <Route path="/reviews" element={<Reviews />} />
-            </Routes>
+          <Router>
+            <Navbar />
+            <div className='App-canvas-page'>
+              <Routes>
+                <Route path="*" element={<Main />} />
+                <Route path="/courses" element={<Courses />} />
+                <Route path="/gallery" element={<Gallery />} />
+                <Route path="/enroll" element={<Enroll />} />
+                <Route path="/reviews" element={<Reviews />} />
+              </Routes>
+            </div>
           </Router>
           <Footer />
         </div>
